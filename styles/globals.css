@@ -1,0 +1,51 @@
+@tailwind base;
+
+#toggle:checked ~ label div.toggle-dot {
+  @apply translate-x-3;
+}
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #354358;
+  font-family: sans-serif;
+  color: #352233;
+}
+
+.not-found {
+  text-align: center;
+}
+.not-found a {
+  color: #6b432c;
+  text-decoration: underline;
+}
+/* side bar */
+/* .TextTyping {
+  color: #6b432c;
+  list-style: none;
+  font-size: 60px;
+  font-weight: 500;
+} */
+.TextTyping li {
+  color: #6b432c;
+  list-style: none;
+  font-size: 60px;
+  font-weight: 500;
+}
+.TextTyping li span {
+  position: relative;
+}
+.TextTyping li span::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid #6b432c;
+  animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35;
+  }
+}
