@@ -15,7 +15,7 @@ const Sidebar = () => {
              />
             <h3 className="my-4 text-2xl tracking-wider text-3xlfont-medium font-Lobster TextTyping">
                 <span className='text-green'>Andika </span>
-                bagus pambudi
+                bagus 
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                 Front-end Mobile || Web 
