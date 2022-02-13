@@ -8,7 +8,7 @@ const resume = () =>{
           
           <div className="grid gap-6 md:grid-cols-2">
               <div>
-                  <h5 className="my-3 text-2xl font-bold">Educaion</h5>
+                  <h5 className="my-3 text-2xl font-bold">Education</h5>
                     <div>
                         <h5 className='my-2 text-xl font-bold'>Technical Computer Enginering</h5>
                         <p className="font-semibold"> Academy of Technology (2020-2024)</p>

@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" >
 
-    <div className="grid grid-cols-12 gap-6 px-5 my-14 lg:mb-0 md:mb-16 sm:px-20 md:px-32 xl:px-48">
+    <div className="grid grid-cols-12 gap-6 px-2 my-12 lg:mb-0 md:mb-16 sm:px-10 md:px-24 xl:px-20">
       <div className="h-full col-span-12 p-4 text-base text-center bg-white dark:text-white lg:col-span-3 rounded-2xl dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark">
         <Sidebar/>
       </div>

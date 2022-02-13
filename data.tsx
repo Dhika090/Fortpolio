@@ -3,7 +3,7 @@ import {RiComputerLine} from 'react-icons/ri'
 import {FaServer} from 'react-icons/fa'
 import {AiOutlineAntDesign, AiOutlineApi,} from 'react-icons/ai'
 import {MdDeveloperMode,} from 'react-icons/md'
-import {BsCircleFill} from 'react-icons/bs'
+import {BsCircleFill, BsCircleHalf} from 'react-icons/bs'
 
 export const services:IServices[] = [
     {
@@ -32,7 +32,7 @@ export const services:IServices[] = [
     },
     {
         Icon: AiOutlineAntDesign,
-        title:"UI/UX Design",
+        title:"UI / UX Design",
         about:"Stunning user interface designer using <b>Figma</b> and <b> Framer</b>",
        
     },
@@ -48,7 +48,7 @@ export const languages:ISkill[] = [
     {
         name:"Python",
         level: "70%",
-        Icon: BsCircleFill
+        Icon: BsCircleHalf
     },
     {
         name:"TypeScript",
@@ -63,7 +63,7 @@ export const languages:ISkill[] = [
     {
         name:"Ionic",
         level: "80%",
-        Icon: BsCircleFill
+        Icon: BsCircleHalf
     },
 ]
 
@@ -71,7 +71,7 @@ export const tools:ISkill[] = [
     {
         name:"Figma",
         level: "70%",
-        Icon: BsCircleFill
+        Icon: BsCircleHalf
     },
     {
         name:"Ilustrator",
@@ -81,39 +81,39 @@ export const tools:ISkill[] = [
     {
         name:"Framer",
         level: "60%",
-        Icon: BsCircleFill
+        Icon: BsCircleHalf
     },
 ]
 
 export const projects:IProject[] = [
-    { 
-        name: "Database",
-        description:
-          "This my PortFolio",
-        image_path: "/db.jpg",
-        deployed_url: "",
-        github_url: "",
-        category: ["Database"],
-        key_techs: ["React", "Tailwind", "Next.js"],
-    },
-    {
-      name: "Protfolio",
-      image_path: "/fortpolio.png",
-      deployed_url: "",
-      github_url: "",
-      category: ["react"],
-      description:
-        "This my Portfolio",
-      key_techs: ["React", "Next.js", "FramerMotion",'Tailwind'],
-    },
+    // { 
+    //     name: "Database",
+    //     description:
+    //       "This my PortFolio",
+    //     image_path: "/12.jpg",
+    //     deployed_url: "",
+    //     github_url: "",
+    //     category: ["Database"],
+    //     key_techs: ["React", "Tailwind", "Next.js"],
+    // },
+    // {
+    //   name: "Protfolio",
+    //   image_path: "/design.png",
+    //   deployed_url: "",
+    //   github_url: "",
+    //   category: ["react"],
+    //   description:
+    //     "This my Portfolio",
+    //   key_techs: ["React", "Next.js", "FramerMotion",'Tailwind'],
+    // },
     {
       name: "Ionic",
-      image_path: "/ionic.png",
+      image_path: "/ionic1.png",
       deployed_url: "https://play.google.com/store/apps/details?id=com.kanze.reload.app",
       github_url: "",
       category: ["ionic",],
       description:
         "This my first  project Mobile",
-      key_techs: ["ionic", "Angular", "Node", "Typescript",],
+      key_techs: ["ionic", "Angular", "Java", "Typescript",],
     },
 ]
