@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ['ui-sans-serif','system-ui'],
-      'Lobster': ['Open Sans'],
+      'Fredoka':['Fredoka'],
      },
      boxShdow:{
        'custom-light': "0 0 10px #313131",

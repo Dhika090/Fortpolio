@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import {AiFillGithub,AiFillInstagram,AiFillLinkedin,AiFillYoutube,} from 'react-icons/ai'
+import {AiFillGithub,AiFillInstagram,AiFillLinkedin,} from 'react-icons/ai'
 import { GoLocation  } from 'react-icons/go'
 import { GiTie  } from 'react-icons/gi'
 import { useTheme } from 'next-themes'
@@ -10,10 +10,9 @@ const Sidebar = () => {
     };
     return (
         <div>
-            {/* https://sumitdey.netlify.app/static/media/max.9d3a6d3e.jpg */}
             <img src="/poto.jpeg"alt="user avatar"className="w-32 h-32 mx-auto rounded-full"
              />
-            <h3 className="my-4 text-2xl tracking-wider text-3xlfont-medium font-Lobster TextTyping">
+            <h3 className="my-4 text-2xl tracking-wider text-3xlfont-medium font-Fredoka TextTyping">
                 <span className='text-blue-900'>Andika </span>
                 bagus pambudi
             </h3>
@@ -35,7 +34,6 @@ const Sidebar = () => {
                     <AiFillGithub className="w-6 h-6 cursor-pointer"/>
                 </a>
             </div>
-            
             {/* Contacts */}
             <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200" 
              style={{marginLeft: '-1rem',marginRight:'-1rem'}}>
@@ -46,12 +44,6 @@ const Sidebar = () => {
                 <p className='my-2'>Nyes6953@gmail.com</p>
                 <p className='my-2'>+62895383110825</p>
             </div>
-
-            
-                {/* <button onClick={changeTheme}
-                 className='w-8/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-400'>
-                    Toggle Theme
-                </button> */}
                 <div className="flex items-center justify-center space-x-2"
                 style={{marginLeft: '-1rem',marginRight:'-1rem'}}>
                     <span className="text-sm text-gray-800 ">Dark</span>
@@ -64,13 +56,9 @@ const Sidebar = () => {
                         </label>
                     </div>
                     <span className="text-sm text-gray-300">Light</span>
-                   
                 </div>
-                {/* Email button */}
-                
-                <button  className='w-8/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-gray-600 to-red-900 focus:outline-none'  onClick={() =>window.open('mailto:nyes6953@gmail.com')}>Email me
+                <button  className='w-8/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-yellow-200 to-gray-800 focus:outline-none'  onClick={() =>window.open('mailto:nyes6953@gmail.com')}>Email me
                 </button>
-               
         </div>
     )
 }

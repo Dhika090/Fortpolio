@@ -1,28 +1,42 @@
 import Bar from "../Components/Bar"
 import { languages, tools } from "../data"
-
+import {motion } from "framer-motion"
+import { fadeInup } from "../animations"
 const resume = () =>{
+
+    const  variants = {
+        initial: {
+            opacity:0,
+            y:60
+        },
+        animate:{
+            opacity:1,
+            y:0,
+        },
+    };
+
     return(
         <div className='p-6 py-2' >
         {/* education */}
-          
           <div className="grid gap-6 md:grid-cols-2">
-              <div>
+              <motion.div  
+              variants={fadeInup} initial="initial" animate="animate">
                   <h5 className="my-3 text-2xl font-bold">Education</h5>
-                    <div>
+                    <div className="">
                         <h5 className='my-2 text-xl font-bold'>Technical Computer Enginering</h5>
                         <p className="font-semibold"> Academy of Technology (2020-2024)</p>
-                        <p className='my-3'> I am an Active Student and a year of studying at university technology, </p>
+                        <p className='my-3'> I am an Active Student and a two year of studying at university technology, </p>
                     </div>
-              </div>
-              <div>
+              </motion.div>
+              <motion.div 
+              variants={fadeInup} initial="initial" animate="animate">
                   <h5 className="my-3 text-2xl font-bold">Exprience</h5>
-                    <div>
+                    <div className="">
                         <h5 className='my-2 text-xl font-bold'>Software Engineer</h5>
                         <p className="font-semibold"> Student of Technology (2020-2024)</p>
                         <p className='my-3'>My Hoby this my job</p>
                     </div>
-              </div>
+              </motion.div>
           </div>
         
         {/* languange */}
