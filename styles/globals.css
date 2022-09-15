@@ -5,12 +5,12 @@
 }
 @tailwind components;
 @tailwind utilities;
-
+/* 
 body {
   background-color: #151922;
   font-family: sans-serif;
   color: #352233;
-}
+} */
 /* 
 .not-found {
   text-align: center;

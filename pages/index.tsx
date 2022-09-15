@@ -3,15 +3,17 @@ import { GetStaticPropsContext } from "next"
 import ServiceCard from "../Components/ServiceCard"
 import { services } from "../data"
 import { motion } from "framer-motion"
-import { fadeInup, stagger } from "../animations"
+import { fadeInup, routeAnimation, stagger } from "../animations"
+
 const index = () => {
   return(
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div className="flex flex-col flex-grow px-6 pt-1"
+     variants={routeAnimation} initial="initial" animate="animate" exit="exit">
       
       <h5 className="my-3 font-medium">Hello, My name is Andika Bagus Pambudi. And I am a developer from Jakarta, Indonesia. I am a student from Muhammadiyah University Prof. Dr. Hamka, East Jakarta in July 2021. I am an Active Student and a year of studying hard at university, I end up learning more new things every day by myself
       </h5>
       <div className="flex-grow p-4 mt-5 bg-gray-200 dark:bg-dark-100" style={{marginLeft:'-1.5rem',marginRight:'-1.5rem'}}>
-          <h6 className="my-3 text-xl font-bold tracking-wide">What i Offer</h6>
+          <h6 className="my-3 text-xl font-bold tracking-wide">What i Learning</h6>
 
         <motion.div
          className="grid gap-6 my-3 md:grid-cols-2" variants={stagger} initial="initial" animate="animate">
@@ -25,7 +27,8 @@ const index = () => {
           ))}
         </motion.div>
       </div>
-    </div>
+    </motion.div>
+    
   )
 }
 

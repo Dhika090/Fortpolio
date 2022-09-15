@@ -3,9 +3,11 @@ import Navbar from '../Components/Navbar'
 import Sidebar from '../Components/Sidebar'
 import '../styles/globals.css'
 import { ThemeProvider } from 'next-themes'
+import { AnimatePresence } from 'framer-motion';
+import Particle from '../Components/Particle';
 
 
-function MyApp({ Component, pageProps }) {
+function app({ Component, pageProps,router }) {
  
   return (
     <ThemeProvider attribute="class" >
@@ -16,8 +18,11 @@ function MyApp({ Component, pageProps }) {
       </div>
       <div className="flex flex-col col-span-12 overflow-hidden bg-white rounded-2xl dark:bg-dark-200 dark:text-white lg:col-span-9 shadow-custom-light dark:shadow-custom-dark">  
       <Navbar/>
-      <Component {...pageProps} />
+      <AnimatePresence >
+      <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
       </div>
+      <Particle/> 
     </div>
     
     </ThemeProvider>
@@ -25,4 +30,4 @@ function MyApp({ Component, pageProps }) {
   
 }
 
-export default MyApp
+export default app

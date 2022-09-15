@@ -3,13 +3,15 @@ import {AiFillGithub,AiFillInstagram,AiFillLinkedin,} from 'react-icons/ai'
 import { GoLocation  } from 'react-icons/go'
 import { GiTie  } from 'react-icons/gi'
 import { useTheme } from 'next-themes'
+import { motion } from 'framer-motion';
+import { fadeInup, stagger } from '../animations';
 const Sidebar = () => {
     const {theme,setTheme} = useTheme();
     const changeTheme = () => {
         setTheme(theme === "light"?"dark":"light");
     };
     return (
-        <div>
+        <motion.div variants={fadeInup} initial="initial" animate="animate"> 
             <img src="/poto.jpeg"alt="user avatar"className="w-32 h-32 mx-auto rounded-full"
              />
             <h3 className="my-4 text-2xl tracking-wider text-3xlfont-medium font-Fredoka TextTyping">
@@ -35,7 +37,7 @@ const Sidebar = () => {
                 </a>
             </div>
             {/* Contacts */}
-            <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200" 
+            <motion.div variants={stagger} className="py-4 my-5 bg-gray-200 dark:bg-dark-200" 
              style={{marginLeft: '-1rem',marginRight:'-1rem'}}>
                 <div className="flex items-center justify-center space-x-2">
                     <GoLocation /> 
@@ -43,7 +45,7 @@ const Sidebar = () => {
                 </div>
                 <p className='my-2'>Nyes6953@gmail.com</p>
                 <p className='my-2'>+62895383110825</p>
-            </div>
+            </motion.div>
                 <div className="flex items-center justify-center space-x-2"
                 style={{marginLeft: '-1rem',marginRight:'-1rem'}}>
                     <span className="text-sm text-gray-800 ">Dark</span>
@@ -59,7 +61,7 @@ const Sidebar = () => {
                 </div>
                 <button  className='w-8/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-yellow-200 to-gray-800 focus:outline-none'  onClick={() =>window.open('mailto:nyes6953@gmail.com')}>Email me
                 </button>
-        </div>
+        </motion.div>
     )
 }
 export default Sidebar

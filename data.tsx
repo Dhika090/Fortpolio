@@ -2,7 +2,6 @@ import { IProject, IServices, ISkill } from './type'
 import {RiComputerLine} from 'react-icons/ri'
 import {FaServer} from 'react-icons/fa'
 import {AiOutlineAntDesign, AiOutlineApi,} from 'react-icons/ai'
-import {MdDeveloperMode,} from 'react-icons/md'
 import {BsCircleFill, BsCircleHalf} from 'react-icons/bs'
 
 export const services:IServices[] = [
@@ -24,24 +23,24 @@ export const services:IServices[] = [
         about:"I can  developer robust Api  using <b>API</b> & <b> Node </b>",
        
     },
-    {
-        Icon: MdDeveloperMode,
-        title:"Competitive Coder",
-        about:"lorem ... ",
+    // {
+    //     Icon: MdDeveloperMode,
+    //     title:"Competitive Coder",
+    //     about:"lorem ... ",
        
-    },
+    // },
     {
         Icon: AiOutlineAntDesign,
         title:"UI / UX Design",
         about:"Stunning user interface designer using <b>Figma</b> and <b> Framer</b>",
        
     },
-    {
-        Icon: RiComputerLine,
-        title:"What Ever",
-        about:"Lorem ....",
+    // {
+    //     Icon: RiComputerLine,
+    //     title:"What Ever",
+    //     about:"Lorem ....",
        
-    },
+    // },
 ]
 
 export const languages:ISkill[] = [
