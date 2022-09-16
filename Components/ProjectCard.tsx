@@ -4,6 +4,7 @@ import { MdClose } from "react-icons/md"
 import { IProject } from "../type";
 import { motion } from 'framer-motion';
 import { fadeInup, stagger } from "../animations";
+import Image from 'next/image'
 
 const ProjectCard: FunctionComponent<{
     project: IProject;
@@ -17,17 +18,16 @@ const ProjectCard: FunctionComponent<{
         const [showDetail, setShowDetail] = useState(false);
         return (
             <div >
-                <img
+                <Image
                 src={image_path} alt={name} className="cursor-pointer" onClick={() => setShowDetail(true)}
                 width="300" height="150" />
                 <p className="my-2 text-center">{name}</p>
-
                 {
                     showDetail && (
                         <div className="absolute top-0 left-0 z-10 grid w-full p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100 ">
                             <motion.div variants={stagger} initial="initial" animate="animate">
                                 <motion.div variants={fadeInup} initial="initial" animate="animate">
-                                    <img src={image_path} alt={name}/>
+                                    <Image src={image_path} alt={name}/>
                                 </motion.div>
 
                                 <motion.div variants={fadeInup} initial="initial" animate="animate" className="flex justify-center my-4 space-x-3">

@@ -26,7 +26,7 @@ const Navbar = () => {
         if(pathname === '/')setActiveItem('About')
         if(pathname === '/projects')setActiveItem('Projects')
         if(pathname === '/resume')setActiveItem('Resume')
-    },[])
+    })
     
     return (
       

@@ -1,6 +1,6 @@
 {
   "name": "fortfolio",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,6 +12,7 @@
     "framer-motion": "^3.10.3",
     "next": "11.0.1",
     "next-themes": "^0.0.15",
+    "npm": "^8.19.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
