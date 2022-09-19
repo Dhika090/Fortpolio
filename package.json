@@ -10,7 +10,7 @@
   "dependencies": {
     "date-fns": "^2.23.0",
     "framer-motion": "^3.10.3",
-    "next": "11.0.1",
+    "next": "^12.3.0",
     "next-themes": "^0.0.15",
     "npm": "^8.19.2",
     "react": "17.0.2",

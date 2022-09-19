@@ -101,6 +101,7 @@ export const projects:IProject[] = [
     //   key_techs: ["React", "Next.js", "FramerMotion",'Tailwind'],
     // },
     {
+        id:1,
       name: "Ionic",
       image_path: "/ionic1.png",
       deployed_url: "https://play.google.com/store/apps/details?id=com.kanze.reload.app",

@@ -1,11 +1,12 @@
 
-import { GetStaticPropsContext } from "next"
+import { GetServerSideProps, GetServerSidePropsContext, GetStaticPropsContext, NextPage } from "next"
 import ServiceCard from "../Components/ServiceCard"
-import { services } from "../data"
 import { motion } from "framer-motion"
 import { fadeInup, routeAnimation, stagger } from "../animations"
+import { services } from './../data';
 
-const index = () => {
+const About:NextPage = () => {
+  // console.log(endpoint);
   return(
     <motion.div className="flex flex-col flex-grow px-6 pt-1"
      variants={routeAnimation} initial="initial" animate="animate" exit="exit">
@@ -32,22 +33,16 @@ const index = () => {
   )
 }
 
-export default index
 
-//   export const getServerSideProps = async (context:GetServerSidePropsContext) => {
-//     //calculation
-
-//     const res  = await fetch('http://localhost:3000/api/services')
-//     const data = await res.json()
-
-//     console.log("SERVER",services)
-//     return {
-//       props:{
-//         services:data.services,
-//       }
-      
-//     }
-//   }
+  // export const getServerSideProps : GetServerSideProps = async (
+  //   context:GetServerSidePropsContext
+  //   ) => {
+      // console.log(process.env.VERCEL_URL);
+      // const res = await fetch('${process.env.VERCEL_URL}/api/services')
+      // const data = await res.json()
+      // console.log(data);
+  //     return { props : {endpoint:process.env.VERCEL_URL}}
+  // }
   
 //   export const  getStaticProps = async (context:GetStaticPropsContext) => {
 //   //calculation
