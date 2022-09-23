@@ -1,6 +1,6 @@
 {
   "name": "fortfolio",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,9 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "date-fns": "^2.23.0",
     "framer-motion": "^3.10.3",
-    "next": "^12.3.0",
+    "next": "^10.0.6",
     "next-themes": "^0.0.15",
     "npm": "^8.19.2",
     "react": "17.0.2",
@@ -23,8 +22,6 @@
     "@types/node": "^16.4.10",
     "@types/react": "^17.0.15",
     "autoprefixer": "^10.3.1",
-    "eslint": "7.31.0",
-    "eslint-config-next": "11.0.1",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7",
     "typescript": "^4.3.5"

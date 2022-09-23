@@ -5,6 +5,7 @@ import { GiTie  } from 'react-icons/gi'
 import { useTheme } from 'next-themes'
 import { motion } from 'framer-motion';
 import { fadeInup, stagger } from '../animations';
+import Image from 'next/image';
 const Sidebar = () => {
     const {theme,setTheme} = useTheme();
     const changeTheme = () => {
@@ -12,8 +13,12 @@ const Sidebar = () => {
     };
     return (
         <motion.div variants={fadeInup} initial="initial" animate="animate"> 
-            <img src="/poto.jpeg"alt="user avatar"className="w-32 h-32 mx-auto rounded-full"
-             />
+            <Image src="/poto.jpeg"  alt="avatar"
+            className="mx-auto border rounded-full "
+            height="128px"
+            width="128px"
+            layout="intrinsic"
+            quality="100"/>
             <h3 className="my-4 text-2xl tracking-wider text-3xlfont-medium font-Fredoka TextTyping">
                 <span className='text-blue-900'>Andika </span>
                 bagus pambudi

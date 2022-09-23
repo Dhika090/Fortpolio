@@ -33,16 +33,17 @@ const About:NextPage = () => {
   )
 }
 
+export default About;
 
-  // export const getServerSideProps : GetServerSideProps = async (
-  //   context:GetServerSidePropsContext
-  //   ) => {
+  export const getServerSideProps : GetServerSideProps = async (
+    context:GetServerSidePropsContext
+    ) => {
       // console.log(process.env.VERCEL_URL);
       // const res = await fetch('${process.env.VERCEL_URL}/api/services')
       // const data = await res.json()
       // console.log(data);
-  //     return { props : {endpoint:process.env.VERCEL_URL}}
-  // }
+      return { props : {endpoint:process.env.VERCEL_URL}}
+  }
   
 //   export const  getStaticProps = async (context:GetStaticPropsContext) => {
 //   //calculation

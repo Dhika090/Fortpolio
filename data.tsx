@@ -8,19 +8,19 @@ export const services:IServices[] = [
     {
        Icon: RiComputerLine,
        title: "Frotend Development",
-       about: "I can build a beatiful and scable SPA using <b> HTML </b>,<b>CSS</b>,and <b>REACT.JS</b> ...",
+       about: "I can build a beatiful and scable SPA using <b> HTML </b>,<b>Css/Sass</b>, <b>Typescript</b>,and <b>REACT.JS</b> ...",
 
     },
     {
         Icon: FaServer,
         title:"Backend Development",
-        about:"Database, Server, API using <b>Express</b> & other populer framework ",
+        about:"Database, Server, API & other populer framework ",
        
     },
     {
         Icon: AiOutlineApi,
         title:"Api Development",
-        about:"I can  developer robust Api  using <b>API</b> & <b> Node </b>",
+        about:"I can developer Api using <b>API</b> & <b> Node </b>",
        
     },
     // {
@@ -46,17 +46,17 @@ export const services:IServices[] = [
 export const languages:ISkill[] = [
     {
         name:"Python",
-        level: "65%",
+        level: "70%",
         Icon: BsCircleHalf
     },
     {
         name:"TypeScript",
-        level: "80%",
+        level: "85%",
         Icon: BsCircleFill
     },
     {
         name:"Boostrap",
-        level: "70%",
+        level: "80%",
         Icon: BsCircleFill
     },
     {
