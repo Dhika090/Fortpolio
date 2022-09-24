@@ -59,8 +59,6 @@ const resume = () =>{
                 }
             </div>
         </div>
-
-
         </div>
         </motion.div>
         
