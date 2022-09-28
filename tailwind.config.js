@@ -1,9 +1,4 @@
-module.exports = {
-  // purge: [
-  //   './src/**/*.html',
-  //   './src/**/*.js',
-  // ],
-  
+module.exports = {  
   purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   darkMode: 'class',
   theme: {

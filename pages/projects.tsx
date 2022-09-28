@@ -26,7 +26,6 @@ const Projects = () =>{
     };
 
     return (
-        // const [showDetail, setShowDetail] = useState(false);
         <motion.div className="px-5 py-2 overflow-y-scroll"
          variants={routeAnimation} initial="initial" animate="animate">
             {/* <nav>Navbar</nav> */}

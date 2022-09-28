@@ -23,24 +23,12 @@ export const services:IServices[] = [
         about:"I can developer Api using <b>API</b> & <b> Node </b>",
        
     },
-    // {
-    //     Icon: MdDeveloperMode,
-    //     title:"Competitive Coder",
-    //     about:"lorem ... ",
-       
-    // },
     {
         Icon: AiOutlineAntDesign,
         title:"UI / UX Design",
         about:"Stunning user interface designer using <b>Figma</b> and <b> Framer</b>",
        
     },
-    // {
-    //     Icon: RiComputerLine,
-    //     title:"What Ever",
-    //     about:"Lorem ....",
-       
-    // },
 ]
 
 export const languages:ISkill[] = [
@@ -57,11 +45,16 @@ export const languages:ISkill[] = [
     {
         name:"Boostrap",
         level: "80%",
-        Icon: BsCircleFill
+        Icon: BsCircleHalf
     },
     {
         name:"Ionic",
         level: "80%",
+        Icon: BsCircleFill
+    },
+    {
+        name:"Java",
+        level: "70%",
         Icon: BsCircleHalf
     },
 ]
@@ -102,7 +95,7 @@ export const projects:IProject[] = [
     // },
     {
         id:1,
-      name: "Ionic",
+      name: "Mobile",
       image_path: "/ionic1.png",
       deployed_url: "https://play.google.com/store/apps/details?id=com.kanze.reload.app",
       github_url: "",
@@ -110,5 +103,16 @@ export const projects:IProject[] = [
       description:
         "This my first  project Mobile",
       key_techs: ["ionic", "Angular", "Java", "Typescript",],
+    },
+    {
+        id:2,
+      name: "Design",
+      image_path: "/comingsoon.png",
+      deployed_url: "",
+      github_url: "",
+      category: ["Design UI",],
+      description:
+        "Coming soon",
+      key_techs: ["Design",],
     },
 ]

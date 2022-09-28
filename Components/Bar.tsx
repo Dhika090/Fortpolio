@@ -1,6 +1,5 @@
 import { FunctionComponent } from "react"
 import { ISkill } from "../type"
-import { animate } from './../node_modules/popmotion/lib/animations/index';
 import { motion } from 'framer-motion'; 
 const Bar:FunctionComponent<{
     data: ISkill

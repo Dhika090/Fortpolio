@@ -6,6 +6,7 @@ import { useTheme } from 'next-themes'
 import { motion } from 'framer-motion';
 import { fadeInup, stagger } from '../animations';
 import Image from 'next/image';
+
 const Sidebar = () => {
     const {theme,setTheme} = useTheme();
     const changeTheme = () => {
@@ -64,7 +65,7 @@ const Sidebar = () => {
                     </div>
                     <span className="text-sm text-gray-300">Light</span>
                 </div>
-                <button  className='w-8/12 px-5 py-2 my-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-yellow-200 to-gray-800 focus:outline-none'  onClick={() =>window.open('mailto:nyes6953@gmail.com')}>Email me
+                <button  className='w-8/12 px-5 py-2 my-2 text-white bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 bg-gradient-to-r from-blue-400 to-gray-700 focus:outline-none'  onClick={() =>window.open('mailto:nyes6953@gmail.com')}>Email me
                 </button>
         </motion.div>
     )

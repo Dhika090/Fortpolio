@@ -23,4 +23,4 @@ export interface IProject{
     key_techs:string[];
 }
 
-export type Category = 'react'|'node'|'angular'|'ionic'|'firebase'|'Database';
+export type Category = 'Mobile'|'Web'|'react'|'node'|'angular'|'ionic'|'firebase'|'Database'|'Design UI';
