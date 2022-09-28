@@ -1,8 +1,10 @@
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.js',
-  ],
+  // purge: [
+  //   './src/**/*.html',
+  //   './src/**/*.js',
+  // ],
+  
+  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   darkMode: 'class',
   theme: {
     fontFamily: {
