@@ -14,7 +14,7 @@ const Sidebar = () => {
     };
     return (
         <motion.div variants={fadeInup} initial="initial" animate="animate"> 
-            <Image src="/poto.jpeg"  alt="avatar"
+            <Image src="/image/poto.jpeg"  alt="avatar"
             className="mx-auto border rounded-full "
             height="128px"
             width="128px"

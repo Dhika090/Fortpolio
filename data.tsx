@@ -73,30 +73,10 @@ export const tools:ISkill[] = [
 ]
 
 export const projects:IProject[] = [
-    // { 
-    //     name: "Database",
-    //     description:
-    //       "This my PortFolio",
-    //     image_path: "/12.jpg",
-    //     deployed_url: "",
-    //     github_url: "",
-    //     category: ["Database"],
-    //     key_techs: ["React", "Tailwind", "Next.js"],
-    // },
-    // {
-    //   name: "Protfolio",
-    //   image_path: "/design.png",
-    //   deployed_url: "",
-    //   github_url: "",
-    //   category: ["react"],
-    //   description:
-    //     "This my Portfolio",
-    //   key_techs: ["React", "Next.js", "FramerMotion",'Tailwind'],
-    // },
     {
         id:1,
       name: "Mobile",
-      image_path: "/ionic1.png",
+      image_path: "/image/ionic1.png",
       deployed_url: "https://play.google.com/store/apps/details?id=com.kanze.reload.app",
       github_url: "",
       category: ["ionic",],
@@ -107,7 +87,7 @@ export const projects:IProject[] = [
     {
         id:2,
       name: "Design",
-      image_path: "/comingsoon.png",
+      image_path: "/image/comingsoon.png",
       deployed_url: "",
       github_url: "",
       category: ["Design UI",],

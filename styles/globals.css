@@ -7,46 +7,10 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(to right bottom, #00f260,#0575e6);
+  color: #354358;
 }
 ::-webkit-scrollbar{
   width: 8px;
   height: 0px;
   
 }
-/* 
-body {
-  background-color: #151922;
-  font-family: sans-serif;
-  color: #352233;
-} */
-/* 
-.not-found {
-  text-align: center;
-}
-.not-found a {
-  color: #6b432c;
-  text-decoration: underline;
-}
-.TextTyping li {
-  color: #6b432c;
-  list-style: none;
-  font-size: 60px;
-  font-weight: 500;
-}
-.TextTyping li span {
-  position: relative;
-}
-.TextTyping li span::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  border-left: 2px solid #6b432c;
-  animation: typing 1.5s steps(10) infinite;
-}
-@keyframes typing {
-  100% {
-    left: 100%;
-    margin: 0 -35px 0 35;
-  } */
