@@ -8,7 +8,7 @@ export const services:IServices[] = [
     {
        Icon: RiComputerLine,
        title: "Frotend Development",
-       about: "I can build a beatiful and scable SPA using <b> HTML </b>,<b>Css/Sass</b>, <b>Typescript</b>,and <b>REACT.JS</b> ...",
+       about: "I can build a beatiful and scable SPA | MPA using  HTML ,Css/Sass, Typescript,and REACT.JS ...",
 
     },
     {
@@ -34,28 +34,33 @@ export const services:IServices[] = [
 export const languages:ISkill[] = [
     {
         name:"Python",
-        level: "70%",
+        level: "45%",
         Icon: BsCircleHalf
     },
     {
         name:"TypeScript",
-        level: "85%",
+        level: "70%",
         Icon: BsCircleFill
     },
     {
         name:"Boostrap",
-        level: "80%",
+        level: "77%",
         Icon: BsCircleHalf
-    },
-    {
-        name:"Ionic",
-        level: "80%",
-        Icon: BsCircleFill
     },
     {
         name:"Java",
-        level: "70%",
-        Icon: BsCircleHalf
+        level: "40%",
+        Icon:  BsCircleFill
+    },
+      {
+        name:"Ionic",
+        level: "75%",
+        Icon:  BsCircleHalf
+    },
+    {
+        name:"Flutter",
+        level: "74%",
+        Icon: BsCircleFill
     },
 ]
 
@@ -67,7 +72,7 @@ export const tools:ISkill[] = [
     },
     {
         name:"Framer",
-        level: "60%",
+        level: "50%",
         Icon: BsCircleHalf
     },
 ]

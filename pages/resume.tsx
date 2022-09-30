@@ -42,7 +42,7 @@ const resume = () =>{
         {/* languange */}
         <div className="grid gap-6 md:grid-cols-2">
         <div>
-            <h5 className="my-3 text-2xl font-bold">languages & Frameworks</h5>
+            <h5 className="my-3 text-2xl font-sans">languages & Frameworks</h5>
             <div className="my-2">
                 {
                     languages.map(languages =>(
@@ -51,7 +51,7 @@ const resume = () =>{
             </div>
         </div>
         <div>
-            <h5 className="my-3 text-2xl font-bold">Tools & Software</h5>
+            <h5 className="my-3 text-2xl font-sans">Tools & Design</h5>
             <div className="my-2">
                 {
                     tools.map(tools =>(
