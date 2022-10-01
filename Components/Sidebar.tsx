@@ -35,7 +35,8 @@ const Sidebar = () => {
                 <a href="https://www.instagram.com/andikaabgspam_/">
                     <AiFillInstagram className="w-8 h-8 cursor-pointer"/>
                 </a>
-                <a href='https://www.linkedin.com/in/andika-dika-3b26711ab/'>
+                <a href='https://www.linkedin.com/in/andika-bagus-pambudi-3b26711ab/'>
+                    
                <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
                 </a>
                 <a href="https://github.com/Dhika090">
