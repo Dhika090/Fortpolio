@@ -1,6 +1,10 @@
 module.exports = {  
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx","./styles/**/*.css"],
+  purge: [
+    "./pages/**/*.tsx",
+    "./Components/**/*.tsx"
+  ],
   darkMode: 'class',
+  mode: 'jit',
   theme: {
     fontFamily: {
       'sans': ['ui-sans-serif','system-ui'],
