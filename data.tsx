@@ -39,27 +39,27 @@ export const languages:ISkill[] = [
     },
     {
         name:"TypeScript",
-        level: "70%",
+        level: "73%",
         Icon: BsCircleFill
     },
     {
-        name:"Boostrap",
-        level: "77%",
+        name:"React Js",
+        level: "72%",
         Icon: BsCircleHalf
     },
     {
         name:"Java",
-        level: "40%",
+        level: "35%",
         Icon:  BsCircleFill
     },
       {
-        name:"Ionic",
-        level: "75%",
+        name:"Angular",
+        level: "65%",
         Icon:  BsCircleHalf
     },
     {
         name:"Flutter",
-        level: "74%",
+        level: "54%",
         Icon: BsCircleFill
     },
 ]
@@ -68,11 +68,6 @@ export const tools:ISkill[] = [
     {
         name:"Figma",
         level: "70%",
-        Icon: BsCircleHalf
-    },
-    {
-        name:"Framer",
-        level: "50%",
         Icon: BsCircleHalf
     },
 ]
@@ -84,20 +79,20 @@ export const projects:IProject[] = [
       image_path: "/image/ionic1.png",
       deployed_url: "https://play.google.com/store/apps/details?id=com.kanze.reload.app",
       github_url: "",
-      category: ["ionic",],
+      category: ["ionic","angular"],
       description:
         "This my first  project Mobile",
       key_techs: ["ionic", "Angular", "Java", "Typescript",],
     },
     {
         id:2,
-      name: "Design",
-      image_path: "/image/comingsoon.png",
-      deployed_url: "",
-      github_url: "",
-      category: ["Design UI",],
+      name: "Website",
+      image_path: "/image/macrame.png",
+      deployed_url: "https://meshop-dhika.vercel.app/",
+      github_url: "https://github.com/Dhika090/eshop",
+      category: ["React Js",],
       description:
-        "Coming soon",
-      key_techs: ["Design",],
+        "Menjual Kategori Macrame berbagai jenis",
+      key_techs: ["ReactJs","Website"],
     },
 ]

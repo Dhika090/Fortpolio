@@ -8,6 +8,20 @@ import { fadeInup, stagger } from '../animations';
 import Image from 'next/image';
 
 const Sidebar = () => {
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('AndikaCV.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'AndikaCV.pdf';
+                alink.click();
+            })
+        })
+    }
     const {theme,setTheme} = useTheme();
     const changeTheme = () => {
         setTheme(theme === "light"?"dark":"light");
@@ -27,7 +41,7 @@ const Sidebar = () => {
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                 Front-end Mobile || Web 
             </p>
-            <a className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200" href="" download="name">
+            <a className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200" href="" onClick={onButtonClick}>
                 <GiTie className="w-6 h-6"/> Download Resume
             </a>
             {/* //sosial icon */}
