@@ -34,7 +34,7 @@ export const services:IServices[] = [
 export const languages:ISkill[] = [
     {
         name:"Python",
-        level: "45%",
+        level: "35%",
         Icon: BsCircleHalf
     },
     {
