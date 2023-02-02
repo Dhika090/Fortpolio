@@ -2,6 +2,7 @@ import Bar from "../Components/Bar"
 import { languages, tools } from "../data"
 import {motion } from "framer-motion"
 import { fadeInup, routeAnimation } from "../animations"
+import Head from "next/head"
 const resume = () =>{
 
     const  variants = {
@@ -17,6 +18,9 @@ const resume = () =>{
 
     return(
         <motion.div className='p-6 py-2' variants={routeAnimation} initial="initial" animate="animate" exit="exit">
+        <Head>
+            <title>My-Fortpolio</title>
+        </Head>
         {/* education */}
           <div className="grid gap-6 md:grid-cols-2">
               <motion.div  

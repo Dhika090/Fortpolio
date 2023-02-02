@@ -35,7 +35,7 @@ const Sidebar = () => {
             layout="intrinsic"
             quality="100"/>
             <h3 className="my-4 text-2xl tracking-wider text-3xlfont-medium font-Fredoka TextTyping">
-                <span className='text-blue-900'>Andika </span>
+                <span className='text-blue-800'>Andika </span>
                 bagus pambudi
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
@@ -46,14 +46,13 @@ const Sidebar = () => {
             </a>
             {/* //sosial icon */}
             <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-800 md:w-full">
-                <a href="https://www.instagram.com/andikaabgspam_/">
+                <a href="https://www.instagram.com/andikaabgspam_/" aria-label='instagram'>
                     <AiFillInstagram className="w-8 h-8 cursor-pointer"/>
                 </a>
-                <a href='https://www.linkedin.com/in/andika-bagus-pambudi-3b26711ab/'>
-                    
+                <a href='https://www.linkedin.com/in/andika-bagus-pambudi-3b26711ab/' aria-label='linked'>
                <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
                 </a>
-                <a href="https://github.com/Dhika090">
+                <a href="https://github.com/Dhika090" aria-label='Github'>
                     <AiFillGithub className="w-6 h-6 cursor-pointer"/>
                 </a>
             </div>
@@ -69,7 +68,7 @@ const Sidebar = () => {
             </motion.div>
                 <div className="flex items-center justify-center space-x-2"
                 style={{marginLeft: '-1rem',marginRight:'-1rem'}}>
-                    <span className="text-sm text-gray-800 ">Dark</span>
+                    <p className="text-sm text-gray-800 ">Dark</p>
                     <div>
                         <input type="checkbox" name="" id="toggle" className="hidden" />
                         <label htmlFor="toggle">
