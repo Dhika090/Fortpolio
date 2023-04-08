@@ -49,7 +49,7 @@ export const languages:ISkill[] = [
     },
     {
         name:"Java",
-        level: "35%",
+        level: "45%",
         Icon:  BsCircleFill
     },
       {
@@ -59,7 +59,7 @@ export const languages:ISkill[] = [
     },
     {
         name:"Flutter",
-        level: "54%",
+        level: "40%",
         Icon: BsCircleFill
     },
 ]

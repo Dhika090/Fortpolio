@@ -39,7 +39,7 @@ const Sidebar = () => {
                 bagus pambudi
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-                Front-end Mobile || Web 
+                Web developer
             </p>
             <a className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200" href="" onClick={onButtonClick}>
                 <GiTie className="w-6 h-6"/> Download Resume
@@ -63,7 +63,7 @@ const Sidebar = () => {
                     <GoLocation /> 
                     <span>Jakarta, Indonesia</span>
                 </div>
-                <p className='my-2'>Nyes6953@gmail.com</p>
+                <p className='my-2'>andikabaguspambudi09@gmail.com</p>
                 <p className='my-2'>+62895383110825</p>
             </motion.div>
                 <div className="flex items-center justify-center space-x-2"
@@ -79,7 +79,7 @@ const Sidebar = () => {
                     </div>
                     <span className="text-sm text-gray-300">Light</span>
                 </div>
-                <button  className='w-8/12 px-5 py-2 my-2 text-white bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 bg-gradient-to-r from-blue-400 to-gray-700 focus:outline-none'  onClick={() =>window.open('mailto:nyes6953@gmail.com')}>Email me
+                <button  className='w-8/12 px-5 py-2 my-2 text-white bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 bg-gradient-to-r from-blue-400 to-gray-700 focus:outline-none' onClick={() =>window.open('mailto:andikabaguspambudi09@gmail.com')}>Email me
                 </button>
         </motion.div>
     )
