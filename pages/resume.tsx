@@ -29,7 +29,7 @@ const resume = () =>{
                     <div className="">
                         <h5 className='my-2 text-xl font-bold'>Technical Computer Enginering</h5>
                         <p className="font-semibold"> Academy of Technology (2020-2024)</p>
-                        <p className='my-3'> I am an Active Student and a two year of studying at university technology, </p>
+                        <p className='my-3'> I am an active student at the Uhamka University Faculty of Technology </p>
                     </div>
               </motion.div>
               <motion.div 

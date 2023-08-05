@@ -39,22 +39,22 @@ export const languages:ISkill[] = [
     },
     {
         name:"TypeScript",
-        level: "73%",
+        level: "85%",
         Icon: BsCircleFill
     },
     {
         name:"React Js",
-        level: "72%",
+        level: "80%",
         Icon: BsCircleHalf
     },
     {
         name:"Java",
-        level: "45%",
+        level: "40%",
         Icon:  BsCircleFill
     },
       {
         name:"Angular",
-        level: "65%",
+        level: "80%",
         Icon:  BsCircleHalf
     },
     {
@@ -62,12 +62,17 @@ export const languages:ISkill[] = [
         level: "40%",
         Icon: BsCircleFill
     },
+    {
+        name:"PHP",
+        level: "79%",
+        Icon: BsCircleFill
+    },
 ]
 
 export const tools:ISkill[] = [
     {
         name:"Figma",
-        level: "70%",
+        level: "89%",
         Icon: BsCircleHalf
     },
 ]
@@ -75,7 +80,7 @@ export const tools:ISkill[] = [
 export const projects:IProject[] = [
     {
         id:1,
-      name: "Mobile",
+      name: "Mobile PPOB",
       image_path: "/image/ionic1.png",
       deployed_url: "https://play.google.com/store/apps/details?id=com.kanze.reload.app",
       github_url: "",
@@ -86,13 +91,46 @@ export const projects:IProject[] = [
     },
     {
         id:2,
-      name: "Website",
+      name: "Website Ecommerce",
       image_path: "/image/macrame.png",
       deployed_url: "https://meshop-dhika.vercel.app/",
       github_url: "https://github.com/Dhika090/eshop",
       category: ["React Js",],
       description:
-        "Menjual Kategori Macrame berbagai jenis",
+        "Tugas Akhir Menjual Kategori Macrame berbagai jenis",
       key_techs: ["ReactJs","Website"],
+    },
+    {
+        id:3,
+      name: "Game",
+      image_path: "/image/mojak.jpg",
+      deployed_url: "https://www.mojak.id/#/",
+      github_url: "https://github.com/Dhika090/monopoly-pajak",
+      category: ["React Js",],
+      description:
+        "Freelancer Game Monopoly Pajak (Mojak).",
+      key_techs: ["vite","vue.js","Website","Game"],
+    },
+    {
+        id:4,
+      name: "Website Ecommerce",
+      image_path: "/image/pangandaranmart.jpg",
+      deployed_url: "https://www.pengandaranmart.com/",
+      github_url: "https://github.com/Dhika090/Pengandaran-Mart",
+      category: ["React Js","tailwind"],
+      description:
+        "Freelancer Wesbite ecommerce Pengandaranmart",
+      key_techs: ["ReactJs","tailwind","Website"],
+    },
+    {
+        id:5,
+      name: "Website Classroom",
+      image_path: "/image/kemendagri.jpg",
+      deployed_url: "",
+      github_url: "",
+      category: ["PHP",],
+      description:
+        "Freelancer Coming soon Progress Wesbite clasroom untuk P3K",
+      key_techs: ["php","Website"],
     },
 ]
