@@ -10,14 +10,14 @@ import Image from 'next/image';
 const Sidebar = () => {
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('CV_andika.pdf').then(response => {
+        fetch('cv_Andika Bagus Pambudii.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'CV_andika.pdf';
+                alink.download = 'cv_Andika Bagus Pambudii.pdf';
                 alink.click();
             })
         })
@@ -28,7 +28,7 @@ const Sidebar = () => {
     };
     return (
         <motion.div variants={fadeInup} initial="initial" animate="animate">
-            <Image src="/image/poto.jpeg" alt="avatar"
+            <Image src="/image/Foto.png" alt="avatar"
                 className="mx-auto border rounded-full "
                 height="128px"
                 width="128px"
@@ -39,7 +39,7 @@ const Sidebar = () => {
                 bagus pambudi
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-                Web developer
+                IT Developer
             </p>
             <a className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200" href="" onClick={onButtonClick}>
                 <GiTie className="w-6 h-6" /> Download Resume
